@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    background-color: #191a1d;
+}
+.page-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

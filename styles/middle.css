@@ -1,0 +1,104 @@
+.wrapper-content {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right bottom, #424447, #373b3c, #2e3131, #262726, #1e1e1d);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.wrapper-content > .left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper-content > .left-column > .wrapper-text {
+    width: 90%;
+    height: 80%;
+    margin-left: 72px;
+}
+.wrapper-content > .left-column > .wrapper-text > .text {
+    height: 55%;
+}
+.wrapper-content > .left-column > .wrapper-text > .text > .up-text {
+
+}
+.wrapper-content > .left-column > .wrapper-text > .text > .up-text p {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 34px;
+}
+.wrapper-content > .left-column > .wrapper-text > .text > .up-text b {
+    color: white;
+}
+.wrapper-content > .left-column > .wrapper-text > .text > .down-text {
+
+}
+.wrapper-content > .left-column > .wrapper-text > .text > .down-text p {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+/*buttons*/
+
+.wrapper-content > .left-column > .wrapper-text > .buttons {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper-content > .left-column > .wrapper-text > .buttons > .button-left {
+    width: 260px;
+    height: 70px;
+    background-color:#4ace7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 18px;
+ 
+}
+.wrapper-content > .left-column > .wrapper-text > .buttons > .button-left a {
+ color: black;
+ font-size: 30px;
+ font-family: sans-serif;
+ text-decoration: none;
+ font-weight: 700;
+}
+.wrapper-content > .left-column > .wrapper-text > .buttons > .button-right {
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 4px;
+}
+.wrapper-content > .left-column > .wrapper-text > .buttons > .button-right a {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+} 
+
+/*right column*/
+
+.wrapper-content > .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.wrapper-content > .right-column > .text {
+margin-right: 231px;
+}
+.wrapper-content > .right-column > .text h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.wrapper-content > .right-column > .text h1 span {
+    color: #00c4ff;
+}
+.wrapper-content > .right-column > .image img {
+    width: 503px;
+    height: 465px;
+}
